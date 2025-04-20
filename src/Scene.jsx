@@ -8,7 +8,6 @@ import {
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { Watch } from "./Watch";
-import { Liquid } from "./liquid";
 
 gsap.registerPlugin(ScrollTrigger);
 const Scene = ({ progress }) => {
@@ -68,7 +67,6 @@ const Scene = ({ progress }) => {
       />
       <Environment preset="city" />
       <Watch />
-      {/* <Liquid /> */}
     </>
   );
 };
